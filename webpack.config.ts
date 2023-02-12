@@ -5,7 +5,7 @@ const config: WebpackConfiguration = {
 	entry: "./src/index.ts",
 	devServer: {
 		hot: true,
-		watchFiles: ["./public/index.html"],
+		watchFiles: ["./public"],
 		open: true,
 	},
 	module: {
